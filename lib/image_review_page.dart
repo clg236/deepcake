@@ -154,13 +154,6 @@ class AroundShareMenu extends StatelessWidget {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment.bottomRight,
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: MMButton(),
-            ),
-          ),
         ],
       ),
     );

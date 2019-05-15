@@ -156,13 +156,13 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment.bottomRight,
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: MMButton(),
-            ),
-          ),
+          // Align(
+          //   alignment: Alignment.bottomRight,
+          //   child: Padding(
+          //     padding: const EdgeInsets.all(16.0),
+          //     child: MMButton(),
+          //   ),
+          //),
         ],
       ),
       floatingActionButton: Container(

@@ -34,7 +34,7 @@ class _InfoDrawerState extends State<InfoDrawer> {
                         height: screenSize.height / 8,
                       ),
                       Text(
-                        "Sandwhich",
+                        "Deep Cakes",
                         style: headerText,
                       ),
                     ],
@@ -45,50 +45,13 @@ class _InfoDrawerState extends State<InfoDrawer> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "About Sandwhich",
+                          "About Deep Cake",
                           style: infoTitleStyle,
                         ),
                         SizedBox(height: 12),
                         Text(
-                          "This app was built using TensorFlow Lite and Flutter. We trained the model to correctly identify sandwiches.",
+                          "This app was built using TensorFlow Lite and Flutter. The was trained the model to correctly identify deep cakes.",
                           style: infoTextStyle,
-                        ),
-                        SizedBox(height: 12),
-                        Text(
-                          "For more information about the app, why it was built, or to get in touch with us follow us on Twitter or visit the app's website:",
-                          style: infoTextStyle,
-                        ),
-                        SizedBox(height: 12),
-                        GestureDetector(
-                          onTap: () async => await launchURL(
-                              "https://twitter.com/SandwhichApp"),
-                          child: Text(
-                            "@SandwhichApp",
-                            style: infoLinkStyle,
-                          ),
-                        ),
-                        GestureDetector(
-                          onTap: () async =>
-                              await launchURL("https://sandwhich.mm.dev"),
-                          child: Text(
-                            "sandwhich.mm.dev",
-                            style: infoLinkStyle,
-                          ),
-                        ),
-                        SizedBox(height: 40),
-                        Text(
-                          "Built by",
-                          style: infoTitleStyle,
-                        ),
-                        SizedBox(height: 12),
-                        GestureDetector(
-                          onTap: () async =>
-                              await launchURL("https://motionmobs.com"),
-                          child: Image.asset(
-                            AssetStrings.mmLogo,
-                            width: 60.0,
-                            height: 60.0,
-                          ),
                         ),
                       ],
                     ),

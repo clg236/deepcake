@@ -1,5 +1,5 @@
 name: sandwhich
-description: Is this a sandwich or not!?
+description: Is this a deep cake or not!?
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -26,7 +26,7 @@ dependencies:
   url_launcher: ^5.0.2
   flutter_svg: ^0.12.0
   simple_share: ^0.0.1+4
-  flare_flutter: ^1.3.3
+  flare_flutter: ^1.5.0
   flutter_launcher_icons: ^0.7.0
   splashscreen: ^1.2.0
 
@@ -40,7 +40,7 @@ dev_dependencies:
 
 flutter_icons:
   android: true
-  ios: false
+  ios: true
   image_path: assets/images/sandwhich-icon.png
   adaptive_icon_background: "#6715C6"
   adaptive_icon_foreground: assets/images/sandwhich-icon.png
